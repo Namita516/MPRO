@@ -119,17 +119,12 @@ const Header = () => {
     };
 
     return (
-        <div className="header">
-            <div className="header__left">
-                {/* IMDb logo */}
-                <Link to="/">
-                    <img 
-                        className="header__logo" 
-                        src="https://upload.wikimedia.org/wikipedia/commons/6/69/IMDB_Logo_2016.svg" 
-                        alt="IMDb Logo"
-                    />
-                </Link>
-            </div>
+         <div className="header">
+            <Link to="/home">
+                <img className="header__icon" src="https://cdn-icons-png.flaticon.com/512/8842/8842420.png" alt="Logo" />
+            </Link>
+            <div className="font">MPRO</div>
+       
             
               {/* Search Bar */}
             <div className="search-container" ref={searchRef}>
