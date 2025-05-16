@@ -1,0 +1,25 @@
+.favorite-actors {
+    text-align: center;
+}
+
+.actors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.actor-card {
+    margin: 10px;
+    text-align: center;
+}
+
+.actor-image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.actor-name {
+    margin-top: 5px;
+    font-size: 16px;
+}

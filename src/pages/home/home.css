@@ -1,0 +1,156 @@
+.posterImage{
+    height: 600px;
+}
+
+.posterImage > img {
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+
+.posterImage__overlay {
+    position: absolute;
+    padding: 5rem;
+    bottom: 0px;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-image: linear-gradient(rgb(0,0,0,0), rgb(0,0,0,1));
+    opacity: 1;
+    transition: opacity .3s;
+    
+}   
+.button{
+    display:flex;
+    justify-content: center;
+
+    align-items: center;
+    padding: 0.3rem 1rem;
+
+}
+.movie__1Button {
+    background-color:rgb(255, 196, 0);
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    height:30px;
+    margin:10px;
+    color:white;
+    
+    
+}
+
+.movie__2Button {
+    background-color:rgb(224, 127, 248);
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    height:30px;
+    margin:10px;
+    color:white;
+
+}
+.movie__3Button {
+    background-color:rgb(95, 157, 252);
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 1rem;
+
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    height:30px;
+    margin:10px;
+    color:white;
+
+}
+
+.movie__4Button {
+    background-color:rgb(249, 111, 77);
+    justify-content: center;
+    align-items: center;
+    padding: 0.3rem 1rem;
+
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    color: black;
+    font-weight: bold;
+    height:30px;
+    margin:10px;
+    color:white;
+}
+.posterImage__overlay:hover {
+    opacity: 1;
+}
+
+.posterImage__title {
+    font-weight: 900;
+    font-size: 4rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+}
+
+.posterImage__runtime {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.posterImage__rating {
+    margin-left: 3rem;
+}
+
+.posterImage__description {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+    display: flex;
+    text-align: left;
+    width: 50%;
+}
+
+.movie__Butt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+}
+
+.movie__heButton {
+    background-color:rgba(61, 58, 58, 0.83);
+    
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 150px;
+    color: black;
+    font-weight: bold;
+    background-color:rgb(252, 193, 0);
+    margin-right:20px;
+
+}
