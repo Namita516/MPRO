@@ -623,7 +623,7 @@ margin-top:40px;
     border: 1px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    width: 1300px;
+    width: 1200px;
     height: 500px; /* Add a fixed height */
     margin-top: 40px;
     overflow-y: auto; /* Enables vertical scroll when content overflows */
